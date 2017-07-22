@@ -32,6 +32,7 @@ auto env = lmdbcols::DatabaseEnvironment{ "my_data.db" };
 using PathID = uint64_t;
 struct GeoPos {double lat, lon;};
 
+// Store our data in a named LMDB database (in the file) called "paths"
 auto pathsDB = lmdbcols::MapDB_Pod_PodArray<PathID, GeoPos>{ "paths" };
 
 // Write path
