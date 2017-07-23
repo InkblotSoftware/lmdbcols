@@ -92,10 +92,12 @@ you'll need to make sure yourself that the key type is also a multiple of 16
 in size.
 
 
-License
--------
+Ownership and license
+---------------------
 
-Released under the Mozilla Public License v2.0.
+All project files are copyright (c) 2017 Inkblot Software Limited.
+
+This project is released under the Mozilla Public License v2.0.
 
 This means you can include the library in your projects (static or dynamic
 linking) without having to change your license or reveal your code, just like
